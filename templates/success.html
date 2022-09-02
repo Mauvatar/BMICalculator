@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Success
+{% endblock %}
+
+{% block main %}
+    <div>
+        <h1>Your BMI has been successfully updated to the database!</h1>
+        <h3>Please proceed to the following plan: <a href="/Myplan">{{ plan }}</a></h3>
+        <p>Note: This plan is recommended due to the information about your BMI you are not, however, required to complete it and you are welcome to the see the other two plans! <a href="/plan"> Check other plans!</a></p>
+    </div>
+{% endblock %}
